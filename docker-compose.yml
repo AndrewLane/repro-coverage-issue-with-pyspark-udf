@@ -1,0 +1,10 @@
+version: "3"
+services:
+  protonai-pyspark:
+    image: protonai/pyspark
+    volumes:
+      - .:/home/
+    user: root
+    stdin_open: true
+    tty: true
+    container_name: protonai-pyspark-container
